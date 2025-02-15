@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i2"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context="com.Hostel.Accomomate.MainActivity"
+    >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/akronim"
+        android:gravity="center"
+        android:text="Accomomate"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/name1"
+                android:drawableLeft="@drawable/baseline_mail_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/white"
+                android:ems="10"
+                android:padding="10dp"
+                android:hint="College Mail ID"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/name1"
+                android:drawableLeft="@drawable/baseline_mail_lock_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/white"
+                android:ems="10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="LOGIN"
+        android:background="@color/darkblue"/>
+
+</LinearLayout>

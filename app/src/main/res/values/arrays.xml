@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="departments_array">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>ME</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>
